@@ -1,6 +1,6 @@
 
 %% Define the directory and filenames
-directory = '/Users/gregoryhohensee/Documents/MATLAB/TDTR_vH2_1C/TDTR_vH2';
+directory = '/Users/gregoryhohensee/Documents/MATLAB/TDTR_vH3';
 yymmdd = '150210'; % e.g., 140227 = February 27th, 2014.
 datafolder = strcat('/',yymmdd,'/');      % folder in directory where raw data is kept
 savefolder = strcat('/',yymmdd,'_edit/'); % folder in directory where analyzed data is saved
