@@ -5,6 +5,8 @@ Hi all,
 
 This is the next version of my MATLAB scripts for TDTR data analysis, after vH2. The TDTR_vH2_pub repository is still up on GitHub, so feel free to check that one out for past README's and documentation. For vH3, the introduction is handled with the TDTR_vH3 slides PDF file I've posted in this repository. Please look at those, and then at the process and analyze MATLAB scripts, to get started with my system.
 
+NOTE: you will have to update file paths in these scripts for your own computer. And in some instances, you may get an error message saying that some script ending in "_vH2" was not found. That would be because I missed updating a script call when renaming everything to vH3. Just edit the offending line of MATLAB code to call the corresponding "_vH3" script and you'll be fine.
+
 What's new in vH3 from vH2? Mainly:
 
 * Moved around the inputs to the writeLCTE database function, since some were obsolete or irritatingly placed.
