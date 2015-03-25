@@ -131,7 +131,7 @@ switch sigfit
         % Construct normalized V(in) model and data,
         % relative to its value at Zdelay picoseconds.
         Vin_model = real(deltaR_model);
-        Vin_model_Zdelay = Vin_model(Zind) / N;
+        Vin_model_Zdelay = Vin_model(Zind);
         nVin_model = Vin_model / Vin_model_Zdelay;
 
         Vin_data_Zdelay = Vin_data(Zind);
@@ -146,7 +146,7 @@ switch sigfit
             % Construct normalized V(out) model and data,
             % relative to its mean value near Zdelay picoseconds.
             Vout_model = imag(deltaR_model);
-            Vout_model_Zdelay = Vout_model(Zind) / N;
+            Vout_model_Zdelay = Vout_model(Zind);
             nVout_model = Vout_model / Vout_model_Zdelay;
 
             Vout_data_Zdelay = Vout_data(Zind);
